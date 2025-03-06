@@ -1,2 +1,6 @@
 Console.WriteLine("Name:Arif");
 Console.WriteLine("Roll No : 083");
+int num3=Convert.ToInt32(Console.ReadLine());
+int num4=Convert.ToInt32(Console.ReadLine());
+int Subtraction = num3 - num4;
+Console.WriteLine($"Subtraction:{Subtraction}");
