@@ -1,10 +1,17 @@
 Console.WriteLine("Name:Arif");
 Console.WriteLine("Roll No : 083");
+int num3=Convert.ToInt32(Console.ReadLine());
+int num4=Convert.ToInt32(Console.ReadLine());
+int Subtraction = num3 - num4;
+Console.WriteLine($"result:{Subtraction}");
 int num5=Convert.ToInt32(Console.ReadLine());
 int num6=Convert.ToInt32(Console.ReadLine());
 int Multiplication= num5 * num6;
-Console.WriteLine($"Multiplication:{Multiplication}");
+Console.WriteLine($"result:{Multiplication}");
 int num7=Convert.ToInt32(Console.ReadLine());
 int num8=Convert.ToInt32(Console.ReadLine());
-int Div = num7 / num8;
-Console.WriteLine($"div:{Div}");
+int Division = num7 / num8;
+Console.WriteLine($"result:{Division}");
+
+
+
