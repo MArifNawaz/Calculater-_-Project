@@ -1,5 +1,9 @@
 Console.WriteLine("Name:Arif");
-Console.WriteLine("Roll No : 083");
+Console.WriteLine("Roll no : 083");
+int num1=Convert.ToInt32(Console.ReadLine());
+int num2=Convert.ToInt32(Console.ReadLine());
+int sum = num1 + num2;
+Console.WriteLine($"result:{sum}");
 int num3=Convert.ToInt32(Console.ReadLine());
 int num4=Convert.ToInt32(Console.ReadLine());
 int Subtraction = num3 - num4;
