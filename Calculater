@@ -1,2 +1,6 @@
 Console.WriteLine("Name:Arif");
 Console.WriteLine("Roll No : 083");
+int num5=Convert.ToInt32(Console.ReadLine());
+int num6=Convert.ToInt32(Console.ReadLine());
+int Multiplication= num5 * num6;
+Console.WriteLine($"Multiplication:{Multiplication}");
