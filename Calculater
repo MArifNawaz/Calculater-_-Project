@@ -1,2 +1,6 @@
 Console.WriteLine("Name:Arif");
 Console.WriteLine("Roll No : 083");
+int num7=Convert.ToInt32(Console.ReadLine());
+int num8=Convert.ToInt32(Console.ReadLine());
+int Div = num7 / num8;
+Console.WriteLine($"div:{Div}");
